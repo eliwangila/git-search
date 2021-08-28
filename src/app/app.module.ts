@@ -2,6 +2,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
@@ -9,6 +10,7 @@ import { UserComponent } from './user/user.component';
 import { DateCountPipe } from './date-count.pipe';
 import { HttpClientModule } from '@angular/common/http';
 import { SearchService } from './search.service';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,7 @@ import { SearchService } from './search.service';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [SearchService],
   bootstrap: [AppComponent]
