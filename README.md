@@ -10,7 +10,7 @@
  # installation/setup installation
 
  * open terminal
- * git clone repository
+ * git clone repository https://github.com/eliwangila/git-search.git
  * cd Git-Search
  * code . to open in text editor
 
