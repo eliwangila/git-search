@@ -7,10 +7,10 @@
 # Description
  This is an angular application, which a client can search for username and repositories that theyve pushed to github.
 
- [livesite-link](https://peaceful-beaver-1b374b.netlify.app/)
+ [livesite-link]()
 
  # Screenshot
- <img src='src/assets/image1.png'>
+ <img src=''>
 
  # installation/setup installation
 

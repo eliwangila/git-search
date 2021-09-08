@@ -33,6 +33,8 @@ export class SearchService {
     let promise = new Promise<void>((resolve,reject) =>{
       this.http.get<ApiResponse>(userUrl).toPromise().then
       (response => {
+        // console.log(response, "API Response");
+        
         this.user = response;
 
         resolve()
@@ -60,7 +62,7 @@ export class SearchService {
         this.http.get<ApiResponse>(repoUrl).toPromise().then
         (response => {
             this.repos = response;
-            console.log(this.repos);
+            // console.log(this.repos);
           resolve()
         },
         error=>{
